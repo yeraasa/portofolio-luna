@@ -1,0 +1,32 @@
+<nav class="w-full bg-surface">
+    <div class="px-margin max-w-container-max mx-auto">
+        <div class="flex justify-between items-center h-20">
+            <div class="font-headline-md text-[32px] font-bold text-primary">
+                Luna
+            </div>
+            <div class="hidden md:flex items-center gap-10 font-label-mono text-sm">
+                <a class="text-primary border-b-2 border-primary pb-1 transition-colors duration-200 nav-desktop-link"
+                    data-section="home" href="#home">Home</a>
+                <a class="text-on-surface-variant border-b-2 border-transparent pb-1 hover:text-primary transition-colors duration-200 nav-desktop-link"
+                    data-section="About" href="#About">About</a>
+                <a class="text-on-surface-variant border-b-2 border-transparent pb-1 hover:text-primary transition-colors duration-200 nav-desktop-link"
+                    data-section="Projects" href="#Projects">Projects</a>
+                <a class="text-on-surface-variant border-b-2 border-transparent pb-1 hover:text-primary transition-colors duration-200 nav-desktop-link"
+                    data-section="Contact" href="#Contact">Contact</a>
+            </div>
+            <button aria_expanded="false" aria_label="Open menu" class="md:hidden p-2 border border-primary"
+                id="mobile-menu-button" type="button"><span class="material-symbols-outlined">menu</span></button>
+        </div>
+        <!-- GARIS -->
+        <div class="border-b border-primary"></div>
+        <div class="hidden md:hidden border-t border-primary py-4" id="mobile-menu"><a
+                class="nav-link block py-3 font-label-mono text-sm border-b border-primary last:border-b-0"
+                data-section="home" href="#home">Home</a><a
+                class="nav-link block py-3 font-label-mono text-sm border-b border-primary last:border-b-0"
+                data-section="About" href="#About">About</a><a
+                class="nav-link block py-3 font-label-mono text-sm border-b border-primary last:border-b-0"
+                data-section="Projects" href="#Projects">Projects</a><a
+                class="nav-link block py-3 font-label-mono text-sm border-b border-primary last:border-b-0"
+                data-section="Contact" href="#Contact">Contact</a></div>
+    </div>
+</nav>
