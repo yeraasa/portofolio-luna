@@ -1,28 +1,71 @@
-<section class="py-section-gap overflow-hidden" id="Contact">
-    <div class="px-margin max-w-container-max mx-auto">
-        <div class="flex justify-between items-end border-b border-primary pb-stack-md">
-            <div class="font-headline-md text-[32px] font-bold text-primary">
+<section class="pt-8 sm:pt-section-gap pb-6 sm:pb-8 overflow-hidden" id="Contact">
+    <div class="px-4 sm:px-margin max-w-container-max mx-auto">
+        <div class="flex justify-between items-end border-b border-primary pb-3 sm:pb-stack-md">
+            <div class="font-headline-md text-2xl sm:text-[32px] font-bold text-primary">
                 Contact
             </div>
+            <span class="font-label-mono text-[10px] sm:text-label-mono text-on-surface-variant uppercase">
+                GET IN TOUCH
+            </span>
         </div>
     </div>
 </section>
-<section class="section-gap reveal-on-scroll">
+
+<section class="sm:pb-section-gap reveal-on-scroll">
     <div
-        class="bg-primary p-stack-lg md:p-stack-lg text-on-primary flex flex-col md:flex-row justify-between items-end gap-stack-lg">
-        <div class="max-w-2xl">
-            <h2 class="font-display-xl text-display-xl leading-tight mb-stack-md">Let’s build what’s next.</h2>
+        class="bg-primary text-on-primary p-6 sm:p-10 lg:p-12 flex flex-col lg:flex-row justify-between items-start lg:items-end gap-10 lg:gap-stack-lg border border-primary">
+
+        <!-- LEFT: Headline & Status -->
+        <div class="max-w-2xl w-full">
+            <div class="inline-flex items-center gap-2 border border-on-primary/30 px-3 py-1 mb-6">
+                <span class="w-2 h-2 rounded-full bg-on-primary animate-pulse"></span>
+                <span class="font-label-mono text-[10px] sm:text-label-mono uppercase tracking-wider">
+                    AVAILABLE FOR OPPORTUNITIES
+                </span>
+            </div>
+            <h2 class="font-display-xl text-4xl sm:text-5xl lg:text-display-xl leading-tight">
+                Let’s build<br class="hidden sm:block" /> what’s next.
+            </h2>
         </div>
-        <div class="flex flex-col items-end">
-            <div class="font-label-mono text-label-mono mb-stack-sm">Contact direct</div>
-            <a class="font-headline-md text-headline-md border-b border-on-primary hover:pb-2 transition-all duration-300"
-                href="mailto:auliahaldi@gmail.com">auliahaldi@gmail.com</a>
-            <br />
-            <div class="font-label-mono text-label-mono mb-stack-sm">connect / socials</div>
-            <a class="font-headline-md text-headline-md border-b border-on-primary hover:pb-2 transition-all duration-300"
-                href="https://www.linkedin.com/in/auliahaldi/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
-            <a class="font-headline-md text-headline-md border-b border-on-primary hover:pb-2 transition-all duration-300"
-                href="https://instagram.com/naucliaa" rel="noopener noreferrer" target="_blank">Instagram</a>
+
+        <!-- RIGHT: Links (Email & Socials) -->
+        <div
+            class="w-full lg:w-auto flex flex-col sm:flex-row lg:flex-col justify-between items-start lg:items-end gap-8 pt-6 lg:pt-0 border-t border-on-primary/20 lg:border-none">
+
+            <!-- Direct Email -->
+            <div class="flex flex-col items-start lg:items-end w-full sm:w-auto">
+                <div class="font-label-mono text-[10px] sm:text-label-mono uppercase opacity-70 mb-2">
+                    Contact direct
+                </div>
+                <a class="group inline-flex items-center gap-2 font-headline-md text-lg sm:text-2xl lg:text-headline-md border-b border-on-primary/40 hover:border-on-primary pb-1 transition-colors duration-300 break-all sm:break-normal"
+                    href="mailto:auliahaldi@gmail.com">
+                    <span>auliahaldi@gmail.com</span>
+                    <span
+                        class="text-sm sm:text-base transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5">↗</span>
+                </a>
+            </div>
+
+            <!-- Socials -->
+            <div class="flex flex-col items-start lg:items-end w-full sm:w-auto">
+                <div class="font-label-mono text-[10px] sm:text-label-mono uppercase opacity-70 mb-2">
+                    Connect / socials
+                </div>
+                <div class="flex flex-wrap items-center gap-6">
+                    <a class="group inline-flex items-center gap-1.5 font-headline-md text-lg sm:text-2xl lg:text-headline-md border-b border-on-primary/40 hover:border-on-primary pb-1 transition-colors duration-300"
+                        href="https://www.linkedin.com/in/auliahaldi/" rel="noopener noreferrer" target="_blank">
+                        <span>LinkedIn</span>
+                        <span
+                            class="text-sm sm:text-base transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5">↗</span>
+                    </a>
+                    <a class="group inline-flex items-center gap-1.5 font-headline-md text-lg sm:text-2xl lg:text-headline-md border-b border-on-primary/40 hover:border-on-primary pb-1 transition-colors duration-300"
+                        href="https://instagram.com/naucliaa" rel="noopener noreferrer" target="_blank">
+                        <span>Instagram</span>
+                        <span
+                            class="text-sm sm:text-base transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5">↗</span>
+                    </a>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>

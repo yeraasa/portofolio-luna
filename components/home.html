@@ -1,120 +1,129 @@
-<section class="hero-section px-margin max-w-container-max mx-auto" id="home">
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
-        <!-- LEFT -->
-        <div class="lg:col-span-5 py-section-gap">
-            <h1 class="font-display-2xl text-display-2xl font-extrabold uppercase drop-shadow-[2px_2px_0px_#e2e2e2]">
+<section class="hero-section px-4 sm:px-margin max-w-container-max mx-auto overflow-hidden" id="home">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-gutter items-center py-8 lg:py-0">
+
+        <div class="lg:col-span-5 py-4 lg:py-section-gap text-left">
+            <h1
+                class="font-display-2xl text-5xl sm:text-6xl lg:text-display-2xl font-extrabold uppercase drop-shadow-[2px_2px_0px_#e2e2e2] leading-none">
                 WEB<br />
                 DEV
             </h1>
-            <p class="font-label-mono text-label-mono text-on-surface-variant mt-stack-lg">
+            <p class="font-label-mono text-xs sm:text-label-mono text-on-surface-variant mt-4 lg:mt-stack-lg">
                 UI/UX DESIGNER | front-end developer
             </p>
-            <p class="font-body-lg text-body-lg text-on-surface-variant max-w-lg mt-stack-md">
+            <p class="font-body-lg text-base sm:text-body-lg text-on-surface-variant max-w-lg mt-3 lg:mt-stack-md">
                 Building clean, modern, and user-friendly web applications.
             </p>
         </div>
-        <!-- RIGHT -->
-        <div class="lg:col-span-7 hero-visual">
-            <div class="hero-project scale-80 origin-center">
-                <div class="flex justify-between border-b border-primary pb-3 mb-3">
-                    <span class="font-label-mono text-label-mono">
+
+        <div
+            class="lg:col-span-7 hero-visual relative flex flex-col gap-6 sm:block min-h-0 sm:min-h-[420px] lg:min-h-[480px] w-full">
+
+            <div
+                class="hero-project w-full sm:w-[85%] lg:w-[80%] sm:scale-90 lg:scale-80 origin-top-left sm:origin-center transition-transform">
+                <div class="flex justify-between border-b border-primary pb-2 sm:pb-3 mb-3">
+                    <span class="font-label-mono text-[10px] sm:text-label-mono">
                         PROJECT / 01
                     </span>
-                    <span class="font-label-mono text-label-mono">
+                    <span class="font-label-mono text-[10px] sm:text-label-mono">
                         PORTFOLIO
                     </span>
                 </div>
-                <div class="border border-primary bg-surface">
-                    <!-- Navbar -->
-                    <div class="flex justify-between items-center px-4 py-3 border-b border-primary">
-                        <div class="flex gap-4 font-label-mono text-label-mono">
+                <div class="border border-primary bg-surface shadow-sm">
+                    <div class="flex justify-between items-center px-3 sm:px-4 py-2.5 sm:py-3 border-b border-primary">
+                        <div class="flex gap-3 sm:gap-4 font-label-mono text-[10px] sm:text-label-mono">
                             <span>HOME</span>
                             <span>ABOUT</span>
                             <span>WORK</span>
                         </div>
                     </div>
-                    <!-- Hero -->
-                    <div class="relative min-h-[240px] p-6 overflow-hidden">
-                        <span class="font-label-mono text-label-mono">
-                            WELCOME TO MY PORTFOLIO
-                        </span>
-                        <h3 class="font-headline-lg text-headline-lg uppercase mt-6">
-                            HELLO,<br />
-                            I'M LUNA.
-                        </h3>
-                        <p class="font-label-mono text-label-mono mt-4">
-                            WEB DEVELOPER / UI/UX / QA
-                        </p>
-                        <!-- Circle -->
+                    <div
+                        class="relative min-h-[200px] sm:min-h-[240px] p-4 sm:p-6 overflow-hidden flex flex-col justify-between sm:block">
+                        <div class="pr-0 sm:pr-28">
+                            <span class="font-label-mono text-[10px] sm:text-label-mono block">
+                                WELCOME TO MY PORTFOLIO
+                            </span>
+                            <h3
+                                class="font-headline-lg text-2xl sm:text-headline-lg uppercase mt-4 sm:mt-6 leading-tight">
+                                HELLO,<br />
+                                I'M LUNA.
+                            </h3>
+                            <p class="font-label-mono text-[10px] sm:text-label-mono mt-3 sm:mt-4">
+                                WEB DEVELOPER / UI/UX / QA
+                            </p>
+                        </div>
                         <div
-                            class="absolute right-8 top-1/2 -translate-y-1/2 w-24 h-24 rounded-full border border-primary flex items-center justify-center">
-                            <span class="font-label-mono text-label-mono text-center">
+                            class="mt-6 sm:mt-0 self-end sm:self-auto sm:absolute sm:right-6 md:right-8 sm:top-1/2 sm:-translate-y-1/2 w-20 h-20 sm:w-24 sm:h-24 rounded-full border border-primary flex items-center justify-center shrink-0">
+                            <span class="font-label-mono text-[9px] sm:text-label-mono text-center leading-tight">
                                 DIGITAL<br />
                                 EXPERIENCE
                             </span>
                         </div>
                     </div>
-                    <!-- Footer -->
-                    <div class="flex justify-between px-4 py-3 border-t border-primary">
-                        <span class="font-label-mono text-label-mono">
+                    <div class="flex justify-between px-3 sm:px-4 py-2.5 sm:py-3 border-t border-primary">
+                        <span class="font-label-mono text-[10px] sm:text-label-mono">
                             2026
                         </span>
-                        <span class="font-label-mono text-label-mono">
+                        <span class="font-label-mono text-[10px] sm:text-label-mono">
                             WEB / DESIGN / QA
                         </span>
                     </div>
                 </div>
             </div>
-            <!-- MOBILE -->
-            <div class="hero-mobile scale-80 origin-center">
-                <div class="w-full h-[270px] bg-surface border border-primary p-5 flex flex-col">
-                    <div class="flex-1 flex flex-col justify-center">
-                        <p class="font-label-mono text-[9px] mb-1">
-                            WELCOME BACK
-                        </p>
-                        <h3 class="font-display font-bold text-lg uppercase leading-tight mb-4">
-                            LOGIN
-                        </h3>
-                        <div class="mb-2">
-                            <label class="font-label-mono text-[8px] uppercase">
-                                Email
-                            </label>
-                            <div class="border border-primary h-6 mt-1 px-2 flex items-center">
-                                <span class="text-[8px] text-on-surface-variant">
-                                    Enter your email
-                                </span>
+
+            <div class="hidden md:flex flex-col sm:block gap-4 items-center">
+
+                <div
+                    class="hero-mobile w-full max-w-[220px] sm:w-[190px] sm:absolute sm:right-2 sm:bottom-2 lg:right-4 lg:bottom-4 sm:scale-90 lg:scale-80 origin-center z-10">
+                    <div
+                        class="w-full h-[250px] sm:h-[270px] bg-surface border border-primary p-4 sm:p-5 flex flex-col shadow-sm">
+                        <div class="flex-1 flex flex-col justify-center">
+                            <p class="font-label-mono text-[9px] mb-1">
+                                WELCOME BACK
+                            </p>
+                            <h3 class="font-display font-bold text-lg uppercase leading-tight mb-4">
+                                LOGIN
+                            </h3>
+                            <div class="mb-2">
+                                <label class="font-label-mono text-[8px] uppercase block">
+                                    Email
+                                </label>
+                                <div class="border border-primary h-6 mt-1 px-2 flex items-center">
+                                    <span class="text-[8px] text-on-surface-variant truncate">
+                                        Enter your email
+                                    </span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="mb-3">
-                            <label class="font-label-mono text-[8px] uppercase">
-                                Password
-                            </label>
-                            <div class="border border-primary h-6 mt-1 px-2 flex items-center">
-                                <span class="text-[8px] text-on-surface-variant">
-                                    •••••••••
-                                </span>
+                            <div class="mb-3">
+                                <label class="font-label-mono text-[8px] uppercase block">
+                                    Password
+                                </label>
+                                <div class="border border-primary h-6 mt-1 px-2 flex items-center">
+                                    <span class="text-[8px] text-on-surface-variant">
+                                        •••••••••
+                                    </span>
+                                </div>
                             </div>
+                            <button
+                                class="w-full h-7 bg-primary text-white font-label-mono text-[8px] uppercase cursor-pointer">
+                                Login
+                            </button>
                         </div>
-                        <button class="w-full h-7 bg-primary text-white font-label-mono text-[8px] uppercase">
-                            Login
-                        </button>
                     </div>
                 </div>
             </div>
-            <!-- QA -->
-            <div class="hero-tag right-6 top-20 flex flex-col gap-2">
-                <p class="font-label-mono text-label-mono">
+            <div class="hero-tag absolute right-2 sm:right-6 top-14 sm:top-20 flex flex-col gap-2 z-20">
+                <p class="font-label-mono text-[10px] sm:text-label-mono">
                     LET'S
                     CREATE
                 </p>
-                <p class="font-label-mono text-label-mono">
+                <p class="font-label-mono text-[10px] sm:text-label-mono">
                     CODE
                     WITH PURPOSE
                 </p>
             </div>
-            <!-- FIGMA -->
-            <div class="hero-figma left-0 bottom-0">
-                <span class="font-label-mono text-label-mono">
+
+            <div class="hero-figma absolute left-0 bottom-0 z-20">
+                <span class="font-label-mono text-[10px] sm:text-label-mono">
                     IDEA → REALITY
                 </span>
             </div>

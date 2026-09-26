@@ -46,15 +46,15 @@ body {
     right: 0;
   }
 
-  .hero-tag {
+  /* .hero-tag {
     right: 0;
     top: 96px;
-  }
+  } */
 
-  .hero-figma {
+  /* .hero-figma {
     left: 0;
     bottom: 12px;
-  }
+  } */
 
   .font-display-2xl {
     font-size: clamp(64px, 18vw, 105px);
@@ -201,5 +201,14 @@ main {
 @media (prefers-reduced-motion: reduce) {
   #page-transition {
     display: none;
+  }
+}
+
+@media (max-width: 639px) {
+
+  .hero-project,
+  .hero-mobile {
+    position: static !important;
+    transform: none !important;
   }
 }
